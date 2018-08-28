@@ -1,4 +1,4 @@
-exports.themeLocation = './public/wp-content/themes/fictional-university-theme/';
+exports.themeLocation = '/Users/solene/Local Sites/fictionnal-university/app/public/wp-content/themes';
 exports.urlToPreview = 'http://fictionnal-university.local/';
 
 // If you're using Local by Flywheel you will

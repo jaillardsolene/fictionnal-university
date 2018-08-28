@@ -11,3 +11,15 @@ Stack trace:
 #8 /usr/local/bin/wp(4): include('phar:///usr/loc...')
 #9 {main}
   thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 254
+[28-Aug-2018 11:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_post_types() in /app/public/wp-content/themes/theme-fictionnal-university/functions.php:16
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(450): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(31): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/index.php(10): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/theme-fictionnal-university/functions.php on line 16
