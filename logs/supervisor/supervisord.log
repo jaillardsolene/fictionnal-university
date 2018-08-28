@@ -17,3 +17,22 @@
 2018-08-27 09:15:36,048 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2018-08-27 09:15:36,048 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2018-08-27 09:15:36,048 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-28 07:24:11,467 CRIT Supervisor running as root (no user in config file)
+2018-08-28 07:24:11,467 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2018-08-28 07:24:11,798 INFO RPC interface 'supervisor' initialized
+2018-08-28 07:24:11,799 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-08-28 07:24:11,800 INFO supervisord started with pid 1
+2018-08-28 07:24:12,804 INFO spawned: 'varnishd' with pid 34
+2018-08-28 07:24:12,807 INFO spawned: 'php-fpm' with pid 35
+2018-08-28 07:24:12,815 INFO spawned: 'varnish-plugins-watcher' with pid 36
+2018-08-28 07:24:12,819 INFO spawned: 'nginx' with pid 37
+2018-08-28 07:24:12,827 INFO spawned: 'MailHog' with pid 38
+2018-08-28 07:24:12,842 INFO spawned: 'mysql' with pid 39
+2018-08-28 07:24:12,851 INFO spawned: 'varnish-themes-watcher' with pid 40
+2018-08-28 07:24:14,413 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-28 07:24:14,414 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-28 07:24:14,414 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-28 07:24:14,414 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-28 07:24:14,415 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-28 07:24:14,415 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-28 07:24:14,415 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
