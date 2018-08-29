@@ -33,3 +33,7 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/theme-fictionnal-university/front-page.php on line 52
+[29-Aug-2018 13:37:04 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/theme-fictionnal-university/front-page.php on line 24
+[29-Aug-2018 13:37:04 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/theme-fictionnal-university/front-page.php on line 24
+[29-Aug-2018 13:37:21 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/theme-fictionnal-university/front-page.php on line 24
+[29-Aug-2018 13:37:31 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/theme-fictionnal-university/front-page.php on line 24
