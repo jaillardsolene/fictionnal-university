@@ -2,6 +2,7 @@
 
 function university_post_types() {
     register_post_type("event", array(
+        'supports' => array('title','editors', 'excerpt'),  // Permet d'afficher la gestion des extraits dans le dashboard WP et d’autre éléments (custom Fields….)
         'rewrite' => array('slug' => 'events'), // Permet de changer le nom de la page dans l'URL
         'has_archive' => true, // Fait apparaitre le nom de la page dans l'URL
         'public' => true, // Affiche un nouvel onglet Post dans le dashboard WP
