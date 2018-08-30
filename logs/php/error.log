@@ -40,3 +40,5 @@ Stack trace:
 [29-Aug-2018 16:47:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/theme-fictionnal-university/functions.php on line 19
 [30-Aug-2018 09:09:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-admin/includes/template.php:1031) in /app/public/wp-includes/option.php on line 919
 [30-Aug-2018 09:09:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-admin/includes/template.php:1031) in /app/public/wp-includes/option.php on line 920
+[30-Aug-2018 11:47:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/theme-fictionnal-university/functions.php on line 20
+[30-Aug-2018 12:04:58 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/theme-fictionnal-university/single-event.php on line 27
