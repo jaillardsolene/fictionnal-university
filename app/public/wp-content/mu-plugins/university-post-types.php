@@ -39,7 +39,7 @@ function university_post_types() {
 
     // Professor Post Type
     register_post_type('professor', array(
-        'supports' => array('title','editor'),  // Permet d'afficher la gestion des extraits dans le dashboard WP et d’autre éléments (custom Fields….)
+        'supports' => array('title','editor', 'thumbnail'),  // Permet d'afficher la gestion des extraits dans le dashboard WP et d’autre éléments (custom Fields….)
         'public' => true, // Affiche un nouvel onglet Post dans le dashboard WP
         'labels' => array( // Change le nom de cet onglet
             'name' => 'Professors',
