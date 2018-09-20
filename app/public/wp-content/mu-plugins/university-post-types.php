@@ -1,6 +1,25 @@
 <?php
 
 function university_post_types() {
+
+	// Campus Post Type
+	register_post_type("campus", array(
+		'supports' => array('title','editor', 'excerpt'),  // Permet d'afficher la gestion des extraits dans le dashboard WP et d’autre éléments (custom Fields….)
+		'rewrite' => array('slug' => 'campuses'), // Permet de changer le nom de la page dans l'URL
+		'has_archive' => true, // Fait apparaitre le nom de la page dans l'URL
+		'public' => true, // Affiche un nouvel onglet Post dans le dashboard WP
+		'labels' => array( // Change le nom de cet onglet
+			'name' => 'Campuses',
+			'add_new_item' => 'Add New Campus',
+			'edit_item' => 'Edit Campus', // Afficher du texte a la place de celui par defaut pour nommer Events
+			'all_items' => 'All Campuses', // Afficher du texte a la place de celui par defaut pour nommer Events
+			'singular_name' => 'Campus'
+
+		),
+		'menu_icon' => 'dashicons-location-alt' //Ajouter une icone au nouvel onglet (liste ici :https://developer.wordpress.org/resource/dashicons/)
+
+	));
+
     // Event Post Type
     register_post_type("event", array(
         'supports' => array('title','editor', 'excerpt'),  // Permet d'afficher la gestion des extraits dans le dashboard WP et d’autre éléments (custom Fields….)
